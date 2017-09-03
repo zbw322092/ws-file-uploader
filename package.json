@@ -1,0 +1,18 @@
+{
+  "name": "ws-file-uploader",
+  "version": "1.0.0",
+  "description": "file uploader based on websocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "author": "Bowen Zhong",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "ws": "^3.1.0"
+  }
+}
