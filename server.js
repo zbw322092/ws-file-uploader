@@ -17,6 +17,9 @@ const wsServer = new WebSocket.Server({
 wsServer.on('connection', (socket, request) => {
   ++clientID;
   console.log(`client ${clientID} has connected`);
+
+  socket.send(`Yes, I notice you, client ${clientID}`);
+
 });
 
 
